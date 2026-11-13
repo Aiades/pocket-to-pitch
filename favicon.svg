@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="街道 AI 大脑">
+  <defs>
+    <linearGradient id="tile" gradientUnits="userSpaceOnUse" x1="932" y1="-66" x2="92" y2="1090">
+      <stop offset="0" stop-color="#051442"/>
+      <stop offset="0.45" stop-color="#082676"/>
+      <stop offset="0.80" stop-color="#0A46C8"/>
+      <stop offset="1" stop-color="#1068E6"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="0.21" cy="0.06" r="0.86" gradientTransform="translate(0.21 0.06) scale(1 0.86) translate(-0.21 -0.06)">
+      <stop offset="0" stop-color="#8CCDFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8CCDFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.60" stop-color="#F8FCFF"/>
+      <stop offset="1" stop-color="#D6EEFF"/>
+    </linearGradient>
+    <linearGradient id="core" gradientUnits="userSpaceOnUse" x1="578.19" y1="348.17" x2="445.81" y2="675.83">
+      <stop offset="0" stop-color="#78EEFF"/>
+      <stop offset="0.55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <clipPath id="tileClip">
+      <rect x="0" y="0" width="1024" height="1024" rx="214"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tileClip)">
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#tile)"/>
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#bloom)"/>
+  </g>
+  <path fill-rule="evenodd" fill="url(#body)" d="M 468.70 127.00 Q 512.00 102.00 555.30 127.00 L 823.77 282.00 Q 867.07 307.00 867.07 357.00 L 867.07 667.00 Q 867.07 717.00 823.77 742.00 L 555.30 897.00 Q 512.00 922.00 468.70 897.00 L 200.23 742.00 Q 156.93 717.00 156.93 667.00 L 156.93 357.00 Q 156.93 307.00 200.23 282.00 Z M 735.43 619.00 Q 735.43 641.00 716.38 652.00 L 531.05 759.00 Q 512.00 770.00 492.95 759.00 L 307.62 652.00 Q 288.57 641.00 288.57 619.00 L 288.57 405.00 Q 288.57 383.00 307.62 372.00 L 492.95 265.00 Q 512.00 254.00 531.05 265.00 L 716.38 372.00 Q 735.43 383.00 735.43 405.00 Z"/>
+  <path fill="url(#core)" d="M 610.73 553.00 Q 610.73 569.00 596.87 577.00 L 525.86 618.00 Q 512.00 626.00 498.14 618.00 L 427.13 577.00 Q 413.27 569.00 413.27 553.00 L 413.27 471.00 Q 413.27 455.00 427.13 447.00 L 498.14 406.00 Q 512.00 398.00 525.86 406.00 L 596.87 447.00 Q 610.73 455.00 610.73 471.00 Z"/>
+</svg>
